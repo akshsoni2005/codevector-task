@@ -26,7 +26,11 @@ SECRET_KEY = 'django-insecure-mua=k!g-9fa37)ecbgwj5aqlps_6d@%9h3k=c%4l4d)67ey8(%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "127.0.0.1",
+    "localhost",
+    "codevector-task-qeii.onrender.com",
+]
 
 
 # Application definition
